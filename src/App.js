@@ -32,7 +32,6 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src = {slide1} alt="slide" />
-        <img src = {slide2} alt="slide" />
         <img src = {slide2a} alt="slide" />
         <table cellspacing="0" cellpadding="0" border="0" bordercolor="0">
           <tr>
