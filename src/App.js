@@ -34,18 +34,26 @@ function App() {
         <img src = {slide1} alt="slide" />
         <img src = {slide2} alt="slide" />
         <img src = {slide2a} alt="slide" />
+        <table>
+          <tr>
+            <td><a href="#create-project"><img src = {slide2b1} alt="slide" /></a></td>
+            <td><a href="#add-image"><img src = {slide2b2} alt="slide" /></a></td>
+            <td><a href="#annotation"><img src = {slide2b3} alt="slide" /></a></td>
+            <td><a href="#aiaa"><img src = {slide2b4} alt="slide" /></a></td>
+          </tr>
+        </table>
         <div class="row">
           <div class="column">
             <a href="#create-project"><img src = {slide2b1} alt="slide" /></a>
           </div>
           <div class="column">
-          <a href="#add-image"><img src = {slide2b2} alt="slide" /></a>
+            <a href="#add-image"><img src = {slide2b2} alt="slide" /></a>
           </div>
           <div class="column">
-          <a href="#annotation"><img src = {slide2b3} alt="slide" /></a>
+            <a href="#annotation"><img src = {slide2b3} alt="slide" /></a>
           </div>
           <div class="column">
-          <a href="#aiaa"><img src = {slide2b4} alt="slide" /></a>
+            <a href="#aiaa"><img src = {slide2b4} alt="slide" /></a>
           </div>
         </div>
         <img src = {slide3} alt="slide" />
