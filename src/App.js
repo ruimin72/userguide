@@ -1,6 +1,11 @@
 import React from 'react';
 import slide1 from './images/User Guide.pptx (1).png';
 import slide2 from './images/User Guide.pptx (2).png';
+import slide2a from './images/User Guide.pptx (2a).png';
+import slide2b1 from './images/User Guide.pptx (2b1).png';
+import slide2b2 from './images/User Guide.pptx (2b2).png';
+import slide2b3 from './images/User Guide.pptx (2b3).png';
+import slide2b4 from './images/User Guide.pptx (2b4).png';
 import slide3 from './images/User Guide.pptx (3).png';
 import slide4 from './images/User Guide.pptx (4).png';
 import slide5 from './images/User Guide.pptx (5).png';
@@ -28,22 +33,37 @@ function App() {
       <header className="App-header">
         <img src = {slide1} alt="slide" />
         <img src = {slide2} alt="slide" />
+        <img src = {slide2a} alt="slide" />
+        <div class="row">
+          <div class="column">
+            <a href="#create-project"><img src = {slide2b1} alt="slide" /></a>
+          </div>
+          <div class="column">
+          <a href="#add-image"><img src = {slide2b2} alt="slide" /></a>
+          </div>
+          <div class="column">
+          <a href="#annotation"><img src = {slide2b3} alt="slide" /></a>
+          </div>
+          <div class="column">
+          <a href="#aiaa"><img src = {slide2b4} alt="slide" /></a>
+          </div>
+        </div>
         <img src = {slide3} alt="slide" />
-        <img src = {slide4} alt="slide" />
+        <img id = "create-project" src = {slide4} alt="slide" />
         <img src = {slide5} alt="slide" />
         <img src = {slide6} alt="slide" />
         <img src = {slide7} alt="slide" />
-        <img src = {slide8} alt="slide" />
+        <img id = "add-image" src = {slide8} alt="slide" />
         <img src = {slide9} alt="slide" />
         <img src = {slide10} alt="slide" />
-        <img src = {slide11} alt="slide" />
+        <img id = "annotation" src = {slide11} alt="slide" />
         <img src = {slide12} alt="slide" />
         <img src = {slide13} alt="slide" />
         <img src = {slide14} alt="slide" />
         <img src = {slide15} alt="slide" />
         <img src = {slide16} alt="slide" />
         <img src = {slide17} alt="slide" />
-        <img src = {slide18} alt="slide" />
+        <img id = "aiaa" src = {slide18} alt="slide" />
         <img src = {slide19} alt="slide" />
         <img src = {slide20} alt="slide" />
         <img src = {slide21} alt="slide" />
